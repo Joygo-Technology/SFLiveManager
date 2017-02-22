@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SFLiveManager_Example' do
+  pod 'SFLiveManager', :path => '../'
+
+  target 'SFLiveManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
